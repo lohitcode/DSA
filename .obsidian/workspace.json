@@ -11,14 +11,10 @@
             "id": "26dbc9e2bf44fd55",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -183,8 +179,9 @@
   },
   "active": "26dbc9e2bf44fd55",
   "lastOpenFiles": [
-    "03-arrays-hashing/03-arrays-hashing.md",
     "index.md",
+    "README.md",
+    "03-arrays-hashing/03-arrays-hashing.md",
     "02-two-pointers/02-two-pointers.md",
     "23-matrix/23-matrix.md",
     "22-string-advanced/22-string-advanced.md",
@@ -208,7 +205,6 @@
     "04-sliding-window/04-sliding-window.md",
     "01-linked-list/01-linked-list.md",
     "23-matrix/matrix.md",
-    "22-string-advanced/string-advanced.md",
     "Untitled.canvas",
     "03-arrays-hashing/problems/049-group-anagrams/_prompt.txt",
     "03-arrays-hashing/problems/128-longest-consecutive/_prompt.txt",

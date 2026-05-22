@@ -4,6 +4,12 @@ A comprehensive, pattern-based approach to mastering Data Structures and Algorit
 
 > **Learning patterns > solving random problems** — Most DSA problems are variations of a small set of patterns. Master the patterns, and you can solve any problem.
 
+## Preview
+
+![Graph View](.assets/graph-view.png)
+
+*The Obsidian graph view shows how all 23 DSA patterns connect to each other. Each node is a topic, and edges show relationships (e.g., "binary search" connects to "BST", "LRU cache" uses both "linked list" and "hash map").*
+
 ## Why This Approach?
 
 Blindly grinding LeetCode problems is inefficient. You might solve 100 problems but still struggle on the 101st because you didn't recognize the underlying pattern.
@@ -46,12 +52,26 @@ This vault organizes problems by **pattern**, not difficulty or topic. Each patt
 
 ## How to Use This Vault
 
-### For Obsidian Users
+### For Obsidian Users (Recommended)
 
-1. **Clone this repo** and open it as an Obsidian vault
-2. **Start with `index.md`** — it lists all 23 patterns in order
-3. **Use the Graph View** — nodes are connected to show related patterns
-4. **Follow the numbered order** — patterns build on each other
+This vault is designed for **Obsidian** — a powerful note-taking app with graph visualization.
+
+**Setup:**
+1. [Download Obsidian](https://obsidian.md) (free, cross-platform)
+2. Clone this repo: `git clone https://github.com/lohitcode/DSA.git`
+3. Open Obsidian → "Open folder as vault" → Select the cloned folder
+
+**View the Graph:**
+1. Click the **Graph View** icon in the left sidebar (or press `Ctrl+G` / `Cmd+G`)
+2. You'll see all 23 patterns connected — zoom in/out to explore
+3. Click any node to open that pattern's note
+4. Hover over nodes to see connections
+
+**Navigate:**
+- Start with **`index.md`** — your main hub listing all patterns
+- Click any wikilink `[[like this]]` to jump between topics
+- Use the **backlinks** panel to see what links to the current note
+- Enable **Graph Analysis** to see orphaned notes or highly connected topics
 
 ### Recommended Learning Path
 
