@@ -1,0 +1,31 @@
+---
+title: "💡 Hints: 78. Subsets"
+type: hints
+---
+
+## Hint 1/2
+Use backtracking: for each element, include or exclude.
+
+## Hint 2/2
+Append copy of path to result at each step.
+
+## Solution
+```go
+func subsets(nums []int) [][]int {
+    result := [][]int{}
+    var backtrack func(int, []int)
+    backtrack = func(start int, path []int) {
+        result = append(result, append([]int{}, path...))
+        for i := start; i < len(nums); i++ {
+            path = append(path, nums[i])
+            backtrack(i+1, path)
+            path = path[:len(path)-1]
+        }
+    }
+    backtrack(0, []int{})
+    return result
+}
+```
+
+---
+**[[_prompt.md]]**

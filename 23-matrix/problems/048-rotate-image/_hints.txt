@@ -1,0 +1,9 @@
+---
+title: "💡 Hints: 48. Rotate Image"
+type: hints
+---
+
+This problem is covered in [[../../20-math-geometry/problems/048-rotate-image/prompt.md|Math & Geometry]]
+
+---
+**[[_prompt.md]]** | **[[../../Matrix]]**

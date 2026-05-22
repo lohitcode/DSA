@@ -1,0 +1,16 @@
+---
+title: "💡 Hints: 190. Reverse Bits"
+type: hints
+---
+
+## Hint 1/3
+Iterate 32 times, each time taking the last bit of n and adding it to the result.
+
+## Hint 2/3
+Use shifting: `result = (result << 1) | (n & 1)`, then `n >>= 1`.
+
+## Hint 3/3
+Continue for all 32 bits.
+
+---
+**[[_prompt.md]]** | **[[../../Bit Manipulation]]**

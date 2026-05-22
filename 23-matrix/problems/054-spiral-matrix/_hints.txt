@@ -1,0 +1,9 @@
+---
+title: "💡 Hints: 54. Spiral Matrix"
+type: hints
+---
+
+This problem is covered in [[../../20-math-geometry/problems/054-spiral-matrix/prompt.md|Math & Geometry]]
+
+---
+**[[_prompt.md]]** | **[[../../Matrix]]**

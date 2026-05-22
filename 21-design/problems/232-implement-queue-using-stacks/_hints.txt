@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 232. Implement Queue using Stacks"
+type: hints
+---
+
+## Hint 1/2
+Use two stacks: one for pushing, one for popping.
+
+## Hint 2/2
+When popping or peeking, if pop stack is empty, move all elements from push stack to pop stack (reverses order).
+
+---
+**[[_prompt.md]]** | **[[../../Design Problems]]**

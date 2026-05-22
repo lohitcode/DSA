@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 202. Happy Number"
+type: hints
+---
+
+## Hint 1/2
+Use a hash set to detect cycles. If we see a number again, it's a cycle.
+
+## Hint 2/2
+Alternatively, use Floyd's cycle detection (slow and fast pointers) without extra space.
+
+---
+**[[_prompt.md]]** | **[[../../Math [[../../concept.md]] Geometry]]**

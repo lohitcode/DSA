@@ -1,0 +1,25 @@
+---
+title: "💡 Hints: 217. Contains Duplicate"
+type: hints
+---
+
+## Hint 1/2
+Use a set to track seen elements.
+
+## Hint 2/2
+Return true if you find a duplicate in the set.
+
+## Solution
+```go
+func containsDuplicate(nums []int) bool {
+    seen := make(map[int]bool)
+    for _, n := range nums {
+        if seen[n] { return true }
+        seen[n] = true
+    }
+    return false
+}
+```
+
+---
+**[[_prompt.md]]**

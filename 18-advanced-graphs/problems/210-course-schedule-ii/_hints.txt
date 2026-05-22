@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 210. Course Schedule II"
+type: hints
+---
+
+## Hint 1/2
+Use topological sort (Kahn's algorithm). Start with nodes having indegree 0, remove them and their outgoing edges.
+
+## Hint 2/2
+If we can't visit all nodes, return empty array (cycle exists).
+
+---
+**[[_prompt.md]]** | **[[../../Advanced Graphs]]**

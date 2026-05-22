@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 48. Rotate Image"
+type: hints
+---
+
+## Hint 1/2
+Transpose the matrix (swap matrix[i][j] with matrix[j][i]), then reverse each row.
+
+## Hint 2/2
+For in-place: transpose only for i < j to avoid double swapping. Then reverse each row.
+
+---
+**[[_prompt.md]]** | **[[../../Math [[../../concept.md]] Geometry]]**

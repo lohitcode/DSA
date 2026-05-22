@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 1584. Min Cost to Connect All Points"
+type: hints
+---
+
+## Hint 1/2
+This is a Minimum Spanning Tree problem. Use Prim's or Kruskal's algorithm.
+
+## Hint 2/2
+Kruskal's: Sort all edges by weight, use Union-Find to add edges without cycles until all nodes connected.
+
+---
+**[[_prompt.md]]** | **[[../../Advanced Graphs]]**

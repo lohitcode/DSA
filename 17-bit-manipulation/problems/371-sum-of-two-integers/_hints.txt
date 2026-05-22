@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 371. Sum of Two Integers"
+type: hints
+---
+
+## Hint 1/2
+Use XOR for sum without carry, AND for carry, shift left the carry.
+
+## Hint 2/2
+Loop until carry is 0: `sum = a ^ b`, `carry = (a & b) << 1`, then `a = sum`, `b = carry`.
+
+---
+**[[_prompt.md]]** | **[[../../Bit Manipulation]]**

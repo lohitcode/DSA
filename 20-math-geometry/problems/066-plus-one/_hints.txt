@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 66. Plus One"
+type: hints
+---
+
+## Hint 1/2
+Start from the last digit. Add 1 and handle carry.
+
+## Hint 2/2
+If all digits are 9, result will be 1 followed by all 0s.
+
+---
+**[[_prompt.md]]** | **[[../../Math [[../../concept.md]] Geometry]]**

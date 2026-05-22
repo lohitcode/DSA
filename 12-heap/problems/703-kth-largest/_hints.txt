@@ -1,0 +1,33 @@
+---
+title: "💡 Hints: 703. Kth Largest"
+type: hints
+---
+
+## Hint 1/2
+Use a min-heap of size k.
+
+## Hint 2/2
+Root is kth largest; pop if size > k.
+
+## Solution
+```go
+type KthLargest struct {
+    heap []int
+    k    int
+}
+
+func Constructor(k int, nums []int) KthLargest {
+    heapify(nums)
+    for len(nums) > k { heapPop(&nums) }
+    return KthLargest{nums, k}
+}
+
+func (kl *KthLargest) Add(val int) int {
+    heapPush(&kl.heap, val)
+    if len(kl.heap) > kl.k { heapPop(&kl.heap) }
+    return kl.heap[0]
+}
+```
+
+---
+**[[_prompt.md]]**

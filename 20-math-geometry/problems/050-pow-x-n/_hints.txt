@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 50. Pow(x, n)"
+type: hints
+---
+
+## Hint 1/2
+Use binary exponentiation: x^n = (x^(n/2))^2 if n even, = x * x^(n-1) if n odd.
+
+## Hint 2/2
+Handle negative n by taking reciprocal: x^(-n) = 1 / x^n.
+
+---
+**[[_prompt.md]]** | **[[../../Math [[../../concept.md]] Geometry]]**

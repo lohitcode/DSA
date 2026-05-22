@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 155. Min Stack"
+type: hints
+---
+
+## Hint 1/2
+Use an auxiliary stack to track minimums. Each time you push, also push the current minimum.
+
+## Hint 2/2
+Alternatively, store difference from previous minimum to save space.
+
+---
+**[[_prompt.md]]** | **[[../../Design Problems]]**

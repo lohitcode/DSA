@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 98. Validate BST"
+type: hints
+---
+
+## Hint 1/2
+Use DFS with a valid range (min, max). For each node, check if its value is within range.
+
+## Hint 2/2
+Left subtree must be < node value, right subtree must be > node value. Update range as you go down.
+
+---
+**[[_prompt.md]]** | **[[../../Binary Search Tree]]**

@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 105. Construct BST"
+type: hints
+---
+
+## Hint 1/2
+First element of preorder is the root. Find this root in inorder - left of it is left subtree, right is right subtree.
+
+## Hint 2/2
+Recursively build left and right subtrees using indices.
+
+---
+**[[_prompt.md]]** | **[[../../Binary Search Tree]]**

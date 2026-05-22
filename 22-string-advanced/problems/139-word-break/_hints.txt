@@ -1,0 +1,11 @@
+---
+title: "💡 Hints: 139. Word Break"
+type: hints
+---
+
+This problem is covered in [[../08-dp-1d/problems/139-word-break/prompt.md|Dynamic Programming 1D]]
+
+Use DP: dp[i] = true if s[0:i] can be segmented. Check each word in wordDict.
+
+---
+**[[_prompt.md]]** | **[[../../String Advanced]]**

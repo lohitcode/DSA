@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "43f823819403a860",
+    "type": "split",
+    "children": [
+      {
+        "id": "735b5b7d24c3e211",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26dbc9e2bf44fd55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "29b4b4f308572be5",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d65e05aa2064730",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a695650146f73de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4aef3b23d83db2f5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5fdbf9e949127142",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "0cf2dc202548e26f",
+    "type": "split",
+    "children": [
+      {
+        "id": "052646d376850461",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ba37fc072240599",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "aa2421047ea17166",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "7edcd1f1aa7edf23",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "632577944592ae6a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2a4a6f77460bfa0e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "26dbc9e2bf44fd55",
+  "lastOpenFiles": [
+    "03-arrays-hashing/03-arrays-hashing.md",
+    "index.md",
+    "02-two-pointers/02-two-pointers.md",
+    "23-matrix/23-matrix.md",
+    "22-string-advanced/22-string-advanced.md",
+    "21-design/21-design-problems.md",
+    "20-math-geometry/20-math-geometry.md",
+    "19-bst/19-binary-search-tree.md",
+    "18-advanced-graphs/18-advanced-graphs.md",
+    "17-bit-manipulation/17-bit-manipulation.md",
+    "16-dp-2d/16-dp-2d.md",
+    "15-trie/15-trie.md",
+    "14-greedy/14-greedy.md",
+    "13-intervals/13-intervals.md",
+    "12-heap/12-heap.md",
+    "11-backtracking/11-backtracking.md",
+    "10-graphs-dfs/10-graphs-dfs.md",
+    "09-tree-bfs/09-tree-bfs.md",
+    "08-dp-1d/08-dp-1d.md",
+    "07-tree-dfs/07-tree-dfs.md",
+    "06-stack/06-stack.md",
+    "05-binary-search/05-binary-search.md",
+    "04-sliding-window/04-sliding-window.md",
+    "01-linked-list/01-linked-list.md",
+    "23-matrix/matrix.md",
+    "22-string-advanced/string-advanced.md",
+    "Untitled.canvas",
+    "03-arrays-hashing/problems/049-group-anagrams/_prompt.txt",
+    "03-arrays-hashing/problems/128-longest-consecutive/_prompt.txt",
+    "03-arrays-hashing/problems/238-product-of-array/_prompt.txt",
+    "03-arrays-hashing/problems/001-two-sum/_prompt.txt",
+    "03-arrays-hashing/problems/347-top-k-frequent/_prompt.txt",
+    "03-arrays-hashing/problems/217-contains-duplicate/_prompt.txt",
+    "03-arrays-hashing/problems/242-valid-anagram/_prompt.txt",
+    "03-arrays-hashing/problems/271-encode-decode/_prompt.txt",
+    "17-bit-manipulation/problems/136-single-number/_prompt.txt",
+    "17-bit-manipulation/problems/338-counting-bits/_prompt.txt"
+  ]
+}

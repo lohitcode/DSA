@@ -1,0 +1,27 @@
+---
+title: "💡 Hints: 136. Single Number"
+type: hints
+---
+
+## Hint 1/3
+Think about using a hash map to count occurrences. What would be the time and space complexity?
+
+## Hint 2/3
+XOR operation has a property: `a ^ a = 0` and `a ^ 0 = a`. Also, XOR is commutative and associative.
+
+## Hint 3/3
+XOR all numbers together. Pairs will cancel out (become 0), leaving only the single number.
+
+## Solution
+```go
+func singleNumber(nums []int) int {
+    result := 0
+    for _, num := range nums {
+        result ^= num
+    }
+    return result
+}
+```
+
+---
+**[[_prompt.md]]** | **[[../../Bit Manipulation]]**

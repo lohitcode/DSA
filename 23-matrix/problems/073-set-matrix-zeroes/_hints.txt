@@ -1,0 +1,9 @@
+---
+title: "💡 Hints: 73. Set Matrix Zeroes"
+type: hints
+---
+
+This problem is covered in [[../../20-math-geometry/problems/073-set-matrix-zeroes/prompt.md|Math & Geometry]]
+
+---
+**[[_prompt.md]]** | **[[../../Matrix]]**

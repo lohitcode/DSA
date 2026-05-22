@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 268. Missing Number"
+type: hints
+---
+
+## Hint 1/2
+Use XOR: XOR all numbers from 0 to n, then XOR with all numbers in array. The result is the missing number.
+
+## Hint 2/2
+Alternatively, use the sum formula: `n*(n+1)/2 - sum(nums)`.
+
+---
+**[[_prompt.md]]** | **[[../../Bit Manipulation]]**

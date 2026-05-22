@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 73. Set Matrix Zeroes"
+type: hints
+---
+
+## Hint 1/2
+Use first row and first column as markers to track which rows/columns need to be zeroed.
+
+## Hint 2/2
+First check if first row/col need zeroing (store in flags). Then use them as markers. Finally zero them if needed.
+
+---
+**[[_prompt.md]]** | **[[../../Math [[../../concept.md]] Geometry]]**

@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 787. Cheapest Flights Within K Stops"
+type: hints
+---
+
+## Hint 1/2
+Use Bellman-Ford with stops constraint. Each "relaxation" is one stop.
+
+## Hint 2/2
+Do k+1 iterations of relaxation. Track min cost to reach each node with at most `i` stops.
+
+---
+**[[_prompt.md]]** | **[[../../Advanced Graphs]]**

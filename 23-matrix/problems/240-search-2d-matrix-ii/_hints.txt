@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 240. Search 2D Matrix II"
+type: hints
+---
+
+## Hint 1/2
+Start from top-right corner. If current > target, move left. If current < target, move down.
+
+## Hint 2/2
+Or start from bottom-left corner. Each move eliminates one row or column.
+
+---
+**[[_prompt.md]]** | **[[../../Matrix]]**

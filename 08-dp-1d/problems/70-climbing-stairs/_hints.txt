@@ -1,0 +1,25 @@
+---
+title: "💡 Hints: 70. Climbing Stairs"
+type: hints
+---
+
+## Hint 1/2
+This is Fibonacci: ways(n) = ways(n-1) + ways(n-2).
+
+## Hint 2/2
+Space optimize: only keep previous two values.
+
+## Solution
+```go
+func climbStairs(n int) int {
+    if n <= 2 { return n }
+    prev, curr := 1, 2
+    for i := 3; i <= n; i++ {
+        prev, curr = curr, prev+curr
+    }
+    return curr
+}
+```
+
+---
+**[[_prompt.md]]**

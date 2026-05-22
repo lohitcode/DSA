@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 146. LRU Cache"
+type: hints
+---
+
+## Hint 1/2
+Use a hash map for O(1) lookup and a doubly linked list to maintain usage order.
+
+## Hint 2/2
+On get, move node to front. On put, add to front and remove from end if capacity exceeded.
+
+---
+**[[_prompt.md]]** | **[[../../Design Problems]]**

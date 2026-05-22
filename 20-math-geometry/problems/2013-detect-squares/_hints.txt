@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 2013. Detect Squares"
+type: hints
+---
+
+## Hint 1/2
+Store points in a hash map with (x, y) as key and count as value.
+
+## Hint 2/2
+For a new point (x, y), for each point (x, y2) with same x, look for diagonal points (x2, y) and (x2, y2).
+
+---
+**[[_prompt.md]]** | **[[../../Math [[../../concept.md]] Geometry]]**

@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go run *)",
+      "Bash(go mod *)",
+      "Bash(go test *)",
+      "Bash(go build *)",
+      "Skill(obsidian:obsidian-markdown)",
+      "Bash(python3 *)",
+      "Bash(mkdir -p /Users/lohit/Desktop/LeetCode-Vault/curriculum)",
+      "Bash(mkdir -p arrays-hashing/problems backtracking/problems binary-search/problems dp-1d/problems dp-2d/problems greedy/problems graphs-dfs/problems heap/problems intervals/problems linked-list/problems sliding-window/problems stack/problems trie/problems tree-bfs/problems tree-dfs/problems two-pointers/problems)",
+      "WebSearch",
+      "Bash(cat)",
+      "Bash(chmod +x /tmp/populate-bitmanip.sh)",
+      "Bash(/tmp/populate-bitmanip.sh)"
+    ]
+  }
+}

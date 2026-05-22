@@ -1,0 +1,21 @@
+---
+title: "💡 Hints: 104. Maximum Depth"
+type: hints
+---
+
+## Hint 1/2
+Use recursion: depth = 1 + max(left, right).
+
+## Hint 2/2
+Base case: return 0 for nil node.
+
+## Solution
+```go
+func maxDepth(root *TreeNode) int {
+    if root == nil { return 0 }
+    return 1 + max(maxDepth(root.Left), maxDepth(root.Right))
+}
+```
+
+---
+**[[_prompt.md]]**

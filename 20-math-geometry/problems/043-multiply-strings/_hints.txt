@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 43. Multiply Strings"
+type: hints
+---
+
+## Hint 1/2
+Simulate grade-school multiplication. For each digit in num2, multiply with num1 and add to result at correct position.
+
+## Hint 2/2
+Result can be at most len(num1) + len(num2) digits. Use array to store intermediate results.
+
+---
+**[[_prompt.md]]** | **[[../../Math [[../../concept.md]] Geometry]]**

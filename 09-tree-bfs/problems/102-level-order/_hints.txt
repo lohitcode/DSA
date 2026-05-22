@@ -1,0 +1,32 @@
+---
+title: "💡 Hints: 102. Level Order Traversal"
+type: hints
+---
+
+## Hint 1/2
+Use a queue with root as initial element.
+
+## Hint 2/2
+Process level by level, collecting all nodes at each level.
+
+## Solution
+```go
+func levelOrder(root *TreeNode) [][]int {
+    if root == nil { return [][]int{} }
+    result := [][]int{}
+    queue := []*TreeNode{root}
+    for len(queue) > 0 {
+        level := []int{}
+        for _, node := range queue {
+            level = append(level, node.Val)
+            if node.Left != nil { queue = append(queue, node.Left) }
+            if node.Right != nil { queue = append(queue, node.Right) }
+        }
+        result = append(result, level)
+    }
+    return result
+}
+```
+
+---
+**[[_prompt.md]]**

@@ -1,0 +1,30 @@
+---
+title: "💡 Hints: 125. Valid Palindrome"
+type: hints
+---
+
+## Hint 1/3
+Use two pointers from both ends, skipping non-alphanumeric characters.
+
+## Hint 2/3
+Convert to lowercase before comparing.
+
+## Hint 3/3
+Cross when left >= right.
+
+## Solution
+```go
+func isPalindrome(s string) bool {
+    left, right := 0, len(s)-1
+    for left < right {
+        for left < right && !isAlphaNum(s[left]) { left++ }
+        for left < right && !isAlphaNum(s[right]) { right-- }
+        if toLower(s[left]) != toLower(s[right]) { return false }
+        left++; right--
+    }
+    return true
+}
+```
+
+---
+**[[_prompt.md]]** | **[[../../Two Pointers]]**

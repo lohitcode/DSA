@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 743. Network Delay Time"
+type: hints
+---
+
+## Hint 1/2
+This is a shortest path problem from source k to all other nodes. Use Dijkstra's algorithm.
+
+## Hint 2/2
+Use a min-heap (priority queue) to always process the node with minimum distance first. Return the max distance, or -1 if any node is unreachable.
+
+---
+**[[_prompt.md]]** | **[[../../Advanced Graphs]]**

@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "_attachments",
+  "excludedFiles": [
+    "problems/",
+    ".prompt.txt",
+    "solution.go",
+    "solution_test.go"
+  ]
+}

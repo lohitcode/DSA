@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 460. LFU Cache"
+type: hints
+---
+
+## Hint 1/2
+Use hash map to store key -> (value, frequency). Track minimum frequency.
+
+## Hint 2/2
+Also maintain frequency -> keys map for O(1) eviction of least frequent item.
+
+---
+**[[_prompt.md]]** | **[[../../Design Problems]]**

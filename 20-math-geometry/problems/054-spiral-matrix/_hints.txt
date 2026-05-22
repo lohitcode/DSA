@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 54. Spiral Matrix"
+type: hints
+---
+
+## Hint 1/2
+Maintain four boundaries: top, bottom, left, right. Traverse in order: left->right, top->bottom, right->left, bottom->top.
+
+## Hint 2/2
+Shrink boundaries after each traversal. Stop when top > bottom or left > right.
+
+---
+**[[_prompt.md]]** | **[[../../Math [[../../concept.md]] Geometry]]**

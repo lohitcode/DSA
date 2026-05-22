@@ -1,0 +1,11 @@
+---
+title: "💡 Hints: 3. Longest Substring"
+type: hints
+---
+
+This problem is covered in [[../04-sliding-window/problems/003-longest-substring/prompt.md|Sliding Window]]
+
+Use sliding window with hash map to track last seen index of each character.
+
+---
+**[[_prompt.md]]** | **[[../../String Advanced]]**

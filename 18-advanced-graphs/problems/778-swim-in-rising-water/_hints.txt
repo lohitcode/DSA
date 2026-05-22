@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 778. Swim in Rising Water"
+type: hints
+---
+
+## Hint 1/2
+Use Dijkstra's algorithm where the "cost" is the maximum elevation encountered.
+
+## Hint 2/2
+Use a min-heap prioritized by max elevation. Track the max elevation seen so far.
+
+---
+**[[_prompt.md]]** | **[[../../Advanced Graphs]]**

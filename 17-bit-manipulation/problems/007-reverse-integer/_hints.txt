@@ -1,0 +1,13 @@
+---
+title: "💡 Hints: 7. Reverse Integer"
+type: hints
+---
+
+## Hint 1/2
+Pop digits using `% 10` and build result using `* 10 + digit`.
+
+## Hint 2/2
+Check for overflow before multiplying by 10: if `result > MaxInt32/10` or `result == MaxInt32/10 && pop > 7`, return 0.
+
+---
+**[[_prompt.md]]** | **[[../../Bit Manipulation]]**

@@ -1,0 +1,31 @@
+---
+title: "💡 Hints: 208. Implement Trie"
+type: hints
+---
+
+## Hint 1/2
+Use 26 children per node (a-z).
+
+## Hint 2/2
+Mark end of word with a boolean flag.
+
+## Solution
+```go
+type TrieNode struct{ children [26]*TrieNode; isEnd bool }
+type Trie struct { root *TrieNode }
+func Constructor() Trie { return Trie{&TrieNode{}} }
+func (t *Trie) Insert(word string) {
+    node := t.root
+    for _, c := range word {
+        idx := c - 'a'
+        if node.children[idx] == nil { node.children[idx] = &TrieNode{} }
+        node = node.children[idx]
+    }
+    node.isEnd = true
+}
+func (t *Trie) Search(word string) bool { /* traverse, check isEnd */ }
+func (t *Trie) StartsWith(prefix string) bool { /* traverse, return true if path exists */ }
+```
+
+---
+**[[_prompt.md]]**

@@ -1,0 +1,26 @@
+---
+title: "💡 Hints: 121. Best Time to Buy and Sell Stock"
+type: hints
+---
+
+## Hint 1/2
+Track minimum price seen so far.
+
+## Hint 2/2
+Calculate profit at each day using the minimum.
+
+## Solution
+```go
+func maxProfit(prices []int) int {
+    minPrice := prices[0]
+    maxProfit := 0
+    for _, p := range prices {
+        if p < minPrice { minPrice = p }
+        if p - minPrice > maxProfit { maxProfit = p - minPrice }
+    }
+    return maxProfit
+}
+```
+
+---
+**[[_prompt.md]]**
