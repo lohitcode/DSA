@@ -4,6 +4,12 @@ title: "📚 DSA Patterns - All Topics"
 
 # DSA Learning Hub
 
+> 💡 **First time setup**: Copy this file to `index.md` to create your personal progress tracker with checkboxes.
+> ```bash
+> cp index-template.md index.md
+> ```
+> Then open `index.md` and add `- [ ]` checkboxes before each item. Your `index.md` is gitignored so your progress stays local.
+
 ## Data Structures
 
 ### Arrays and Hashing
